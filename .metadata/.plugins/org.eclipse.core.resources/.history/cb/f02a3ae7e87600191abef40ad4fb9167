@@ -1,0 +1,26 @@
+package impl;
+
+import java.util.Comparator;
+import java.util.LinkedList;
+import java.util.List;
+
+public class SortingExample {
+	
+	public List<Student> getList(){
+		List<Student> studentList = new LinkedList<Student>();
+		
+		return studentList;
+	}
+
+	public static void main(String[] args) {
+		SortingExample s =new SortingExample();
+		
+		Comparator<Student> nameComarator = (o1,o2)->{
+			return  o1.getName().compareTo(o2.getName());
+		};
+		
+		List<Student> studentList = s.getList();
+
+	}
+
+}

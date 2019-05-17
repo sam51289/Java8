@@ -1,0 +1,21 @@
+package impl;
+
+import java.time.LocalDate;
+import java.time.ZoneId;
+
+public class DateExample {
+
+	public static void main(String[] args){
+		
+		LocalDate today = LocalDate.now();
+		System.out.println("Current Date is "+today);
+		
+		LocalDate todayAsia = LocalDate.now(ZoneId.of("Asia/Kolkata"));
+		System.out.println("kolkata is"+todayAsia);
+	
+		LocalDate todayEurope = LocalDate.now(ZoneId.of("Europe/Paris"));
+		System.out.println("kolkata is"+todayEurope);
+	
+	}
+	
+}

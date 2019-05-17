@@ -1,0 +1,10 @@
+package Impl;
+
+public class BookImpl {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

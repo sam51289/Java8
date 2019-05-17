@@ -1,0 +1,29 @@
+package impl;
+
+import java.time.LocalTime;
+
+public class TimeExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		LocalTime time= LocalTime.now();
+		
+		System.out.println("Curretn time is "+time+" finishTime "+LocalTime.now().plusHours(3));
+
+		
+		
+		System.out.println(LocalTime.ofSecondOfDay(86399));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

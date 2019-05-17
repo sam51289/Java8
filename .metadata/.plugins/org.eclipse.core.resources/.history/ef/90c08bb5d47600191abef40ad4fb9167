@@ -1,0 +1,14 @@
+package interfaces;
+
+
+public interface WorkInterface {
+
+//	public void doSomeWork();
+	
+	default public void doSomeWork(){
+		System.out.println("Hi I am inside Interface default method");
+	}
+	
+	  @Override
+	    public String toString(); 
+}

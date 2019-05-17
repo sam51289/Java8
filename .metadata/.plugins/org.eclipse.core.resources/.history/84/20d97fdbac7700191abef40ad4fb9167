@@ -1,0 +1,26 @@
+package impl;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<Float> arr= new ArrayList<Float>();
+		arr.add(10.00f);
+		arr.add(3.2f);
+		arr.add(5.7f);
+		arr.add(100f);
+		arr.add(10.02f);
+				
+		System.out.println("List Data are");
+		arr.forEach(a -> System.out.print(a));
+		
+		arr.forEach(System.out::println);
+		
+
+	}
+
+}

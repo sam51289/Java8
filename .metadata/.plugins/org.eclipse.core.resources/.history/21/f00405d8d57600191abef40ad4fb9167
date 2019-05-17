@@ -1,0 +1,38 @@
+package impl;
+
+import interfaces.WorkInterface;
+
+public class Work  implements WorkInterface{
+
+	
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+/*
+		WorkInterface w = () ->{
+				System.out.println("Hi I am doing some work");
+		};
+		
+		w.doSomeWork();
+*/
+		Work w = new Work();
+		w.doSomeWork();
+		
+		WorkInterface.staticMethod();
+		
+	}
+
+	@Override
+	public void doSome() {
+		// TODO Auto-generated method stub
+		
+	}
+
+//	@Override
+//	public void doSomeWork() {
+//		// TODO Auto-generated method stub
+//		System.out.println("Hi I am doing some work");
+//	}
+
+}

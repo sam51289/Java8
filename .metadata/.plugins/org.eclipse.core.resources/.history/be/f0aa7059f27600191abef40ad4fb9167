@@ -1,0 +1,19 @@
+package ThreadExample;
+
+public class Thread1 implements Runnable{
+
+	public void run(){
+		System.out.println("Running Thread");
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Thread1 t1 = new Thread1();
+		Thread t= new Thread(t1);
+		t.start();
+
+	}
+
+}

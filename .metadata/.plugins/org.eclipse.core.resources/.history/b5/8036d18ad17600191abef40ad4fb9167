@@ -1,0 +1,18 @@
+package impl;
+
+import interfaces.WorkInterface;
+
+public class Work implements WorkInterface {
+
+	@Override
+	public void doSomeWork() {
+		// TODO Auto-generated method stub
+
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

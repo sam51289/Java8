@@ -1,0 +1,19 @@
+package impl;
+
+import java.time.LocalTime;
+
+public class TimeExample {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		LocalTime time= LocalTime.now();
+		
+		
+		
+	}
+
+}

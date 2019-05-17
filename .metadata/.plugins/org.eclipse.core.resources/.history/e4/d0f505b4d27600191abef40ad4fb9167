@@ -1,0 +1,9 @@
+package interfaces;
+
+@FunctionalInterface
+public interface WorkInterface {
+
+	public void doSomeWork();
+	
+	
+}

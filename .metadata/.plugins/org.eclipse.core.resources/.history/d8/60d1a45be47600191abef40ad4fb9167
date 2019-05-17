@@ -1,0 +1,27 @@
+package impl;
+
+import interfaces.draw;
+
+public class MainClass {
+	
+	public static void main(String[] args){
+		
+		draw d= new draw(){
+
+			@Override
+			public void drawing() {
+			System.out.println("I am drawing in ananomous");
+				
+			}
+			
+		};
+		
+		d.drawing();
+		
+		draw d1 = ()-> {
+				System.out.println("I am drawing ");
+		};
+		
+	}
+
+}

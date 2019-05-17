@@ -1,0 +1,5 @@
+package Interfacces;
+
+public interface WorkInterface {
+
+}

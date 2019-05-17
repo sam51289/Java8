@@ -1,0 +1,11 @@
+package interfaces;
+
+@FunctionalInterface
+public interface Sayable2 {
+
+	public void say(String Name);
+	
+	public default void say1(){
+		System.out.println("Inside default method");
+	}
+}
